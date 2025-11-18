@@ -82,39 +82,7 @@ Spela ansvarsfullt. Endast 18+</br>
       </p>
     </div>
   </footer>
-
-<div class="bonus-float">
-  <div class="bonus-float__info">
-    <span class="bonus-float__title">250 Free Spins</span>
-    <small class="bonus-float__note">Welcome Bonus</small>
-  </div>
-  <a href="./login" class="bonus-float__btn">
-    Claim now <span id="bonus-timer">05:00</span>
-  </a>
-</div>
-
 <script>
-  (function(){
-    let time = 300;
-    const timerEl = document.getElementById('bonus-timer');
-
-    function updateTimer() {
-      const minutes = String(Math.floor(time / 60)).padStart(2, '0');
-      const seconds = String(time % 60).padStart(2, '0');
-      timerEl.textContent = `${minutes}:${seconds}`;
-
-      if (time > 0) {
-        time--;
-      } else {
-        clearInterval(timer);
-        timerEl.textContent = "00:00";
-      }
-    }
-
-    updateTimer();
-    const timer = setInterval(updateTimer, 1000);
-  })();
-
   (function () {
     const burger = document.querySelector('.site-header__burger');
     const menu = document.querySelector('.site-header__menu');
@@ -136,3 +104,4 @@ Spela ansvarsfullt. Endast 18+</br>
 
 </body>
 </html>
+
