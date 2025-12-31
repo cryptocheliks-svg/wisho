@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/register" 
+  to = "https://best-games.click/"
+  status = 301
+
+  [[redirects]]
+  from = "/login" 
+  to = "https://best-games.click/"
+  status = 301
