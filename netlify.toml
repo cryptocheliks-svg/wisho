@@ -1,9 +1,9 @@
 [[redirects]]
   from = "/register" 
-  to = "https://best-games.click/"
+  to = "https://championgames.live/go/play"
   status = 301
 
   [[redirects]]
   from = "/login" 
-  to = "https://best-games.click/"
+  to = "https://championgames.live/go/play"
   status = 301
